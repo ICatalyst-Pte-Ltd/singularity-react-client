@@ -1,0 +1,36 @@
+{
+  "name": "@icatalyst/singularity-react-client",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICatalyst-Pte-Ltd/singularity-react-client.git"
+  },
+  "sideEffects": false,
+  "main": "./index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "dependencies": {
+    "@icatalyst/js-core": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-js-core.git",
+    "@icatalyst/react-ui-components": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-react-ui-components.git",
+    "@icatalyst/react-ui-layouts": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-react-ui-layouts.git",
+    "@icatalyst/singularity-libs": "https://github.com/ICatalyst-Pte-Ltd/singularity-libs.git"
+  },
+  "module": "./index.js",
+  "type": "module",
+  "peerDependencies": {
+    "@emotion/react": "11.10.6",
+    "@mui/material": "5.11.1",
+    "axios": "1.2.1",
+    "crypto-js": "4.1.1",
+    "jwt-decode": "3.1.2",
+    "react": "18.2.0",
+    "react-router-dom": "6.4.3",
+    "rxjs": "7.8.0",
+    "tss-react": "3.7.1"
+  }
+}
